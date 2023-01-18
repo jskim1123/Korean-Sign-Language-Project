@@ -1,0 +1,13 @@
+.search {
+    width: 30%;
+    height: 28%;
+    font-family: var(--font-Jalnan);
+    border: none;
+    border-radius: 10px;
+    color: #214832;
+}
+
+.search :focus {
+    outline-color: #214832;
+}
+

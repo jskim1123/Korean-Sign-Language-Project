@@ -1,0 +1,10 @@
+#main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #214832;
+    color: #FFFFFF;
+    font-family: var(--font-Jalnan);
+}
