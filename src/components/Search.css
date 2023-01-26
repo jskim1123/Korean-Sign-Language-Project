@@ -1,13 +1,22 @@
 .search {
-    width: 30%;
-    height: 28%;
+    width: 28%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.search > input {
+    width: 100%;
+    height: 90%;
     font-family: var(--font-Jalnan);
     border: none;
     border-radius: 10px;
     color: #214832;
+    font-size: medium;
 }
-
 .search :focus {
-    outline-color: #214832;
+    outline: none;
 }
 

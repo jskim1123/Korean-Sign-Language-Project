@@ -1,9 +1,33 @@
 .header {
     width: 100%;
-    height: 20%;
+    height: 40%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
     align-items: center;
 }
+
+#id {
+    margin: 0px 0px 0px 680px;
+}
+
+.header-id {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ffd700;
+}
+
+.header-container {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+

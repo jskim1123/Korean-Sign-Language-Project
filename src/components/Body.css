@@ -1,4 +1,30 @@
-.Body {
+.body {
     width: 100%;
-    height: 60%;
+    height: 100%;
+    background-color: #214832;
+    text-align: center;
 }
+
+.body-img {
+    /*filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(151deg) brightness(102%) contrast(101%);*/
+    width: 20%;
+    float: left;
+    margin: 50px 50px 0px 40px;
+    border-radius: 10px;
+    border: solid 3px #FFFFFF;
+}
+
+.body-text {
+    text-align: start;
+    margin: 70px 50px 50px 50px;
+}
+
+#body-text-2 {
+    margin: 120px 50px 0px 30px;
+}
+
+#body-img-2 {
+    margin: 20px 40px 50px 50px;
+}
+
+

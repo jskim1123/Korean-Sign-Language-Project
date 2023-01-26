@@ -3,7 +3,7 @@ import "./Menu.css";
 function Menu(props) {
     return (
         <div className="menu">
-            <h1>{props.title}</h1>
+            <h1 onClick={() => console.log(props.title)}>{props.title}</h1>
         </div>
     );
 }

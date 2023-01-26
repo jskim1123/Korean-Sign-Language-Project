@@ -1,0 +1,77 @@
+.login-join-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    width: 100%;
+    height: 100vh;
+    background-color: #214832;
+    color: #FFFFFF;
+    font-family: var(--font-Jalnan);
+}
+
+.login-join-tab {
+    width: 23%;
+    height: 70%;
+
+    background-color: #FFFFFF;
+    color: #214832;
+    border-radius: 10px;
+}
+
+.login-join-tab-form {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 15px;
+
+}
+
+.login-join-item {
+    width: 100%;
+}
+
+.login-join-item > input {
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    border: solid 2px #214832;
+    border-radius: 5px;
+    color: #214832;
+    font-family: var(--font-Jalnan);
+    caret-color: #214832;
+
+}
+
+
+.login-join-item > input::placeholder {
+    font-family: var(--font-Jalnan);
+    background-color: #FFFFFF;
+}
+
+.login-join-item :focus {
+    outline: none;
+}
+
+
+
+.login-join-item > h6 {
+    font-size: 12px;
+    margin: 0px 0px 5px 0px;
+}
+
+.login-join-button {
+    width: 100%;
+    height: 35px;
+    background-color: #214832;
+    border: solid;
+    border-color: #214832;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: var(--font-Jalnan);
+}

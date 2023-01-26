@@ -2,9 +2,9 @@ import "./Search.css";
 
 function Search() {
     return (
-        <>
-            <input className="search"></input>
-        </>
+        <div className="search">
+            <input></input>
+        </div>
     );
 }
 

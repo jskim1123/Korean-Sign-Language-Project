@@ -8,7 +8,6 @@ function Main() {
         <div id="main">
             <Header></Header>
             <Body></Body>
-            <Footer></Footer>
         </div>
     );
 }
